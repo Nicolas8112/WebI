@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;   /*Activa Flexbox en el contenedor */
+    justify-content: space-around;   /* Distribuye los ítems */
+    align-items: center; /* Centra verticalmente en el eje secundario */
+  height: 150px;   /* Altura del contenedor */
+  background: lightgray; /* Color de fondo */
+}
+.item {
+  background: steelblue; /* Color de fondo de cada ítem */
+  color: white; /* Texto blanco */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+}
+.grid-container {
+  display: grid; /* Activa Grid en el contenedor */
+  grid-template-columns: repeat(3, 1fr); /* Crea 2 columnas iguales */
+  gap: 15px; /* Espacio entre elementos */
+  background: lightyellow; /* Fondo del grid */
+  padding: 10px; /* Espaciado interno */
+}
+.item2 {
+  background: tomato; /* Fondo rojo */
+  color: white; /* Texto blanco */
+  padding: 30px; /* Espaciado interno */
+  text-align: center; /* Centrar texto */
+  border-radius: 5px; /* Bordes redondeados */
+}
+#imagen {
+
+  align-content: center;
+  float: initial;
+}
