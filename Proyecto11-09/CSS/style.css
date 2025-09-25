@@ -1,0 +1,57 @@
+#codigo {
+    color: blue;
+    font-size: 70px;
+    font-family: papyrus;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    justify-content: center;
+    justify-content: center;
+    justify-content: center; /* centra horizontal */
+    align-items: center;     /* centra vertical */
+    height: 15vh;           /* ocupa toda la altura de la pantalla */
+}
+
+#barra {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    gap: 5px;
+    border: 5px solid red;
+}
+
+#barrainterna {
+
+    background: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.grid-container {
+
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgb(0, 0, 255);
+    justify-content: space-around;
+    padding: 50px;
+    padding: 10px;
+    gap: 15px;
+}
+
+.contenidointerno {
+
+    width: 350px;
+    height: 350px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+#imagen {
+
+    align-content: center;
+    float: initial;
+}
