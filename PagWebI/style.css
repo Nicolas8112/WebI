@@ -1,0 +1,59 @@
+/* Fondo oscuro principal */
+.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Tarjetas oscuras */
+.dark-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dark-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+}
+
+/* Formulario login */
+.login-dark {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
+}
+
+/* Campos de formulario */
+.form-control {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  background-color: #333;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+/* Botones */
+.btn-primary, .btn-success {
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+/* Navbar */
+.navbar-dark {
+  background-color: #1b1b1b !important;
+}
